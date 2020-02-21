@@ -9,9 +9,10 @@ const productSchema = new mongoose.Schema({
   category: { type: String },
 })
 
+/*
 let Product = mongoose.model('sdcInfo', productSchema);
 
-async function() {
+let foo = async function() {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     db.dropDatabase(function(err, res) {
@@ -88,3 +89,4 @@ MongoClient.connect(url, function(err, client) {
   }
   client.close();
 })
+*/

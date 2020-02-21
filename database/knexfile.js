@@ -1,10 +1,10 @@
 const path = require('path');
-const config = require(path.join(__dirname, config.js));
+//const pwd = require(path.join(__dirname, pwd.js));
 
 module.exports = {
   development : {
     client: 'postgresql',
-    connection: `postgres://postgres:${config.pgPassword}}@localhost:5432/sdcInfo`,
+    connection: `postgres://postgres:password@localhost:5432/sdcInfo`,
     migrations: {
       directory: __dirname + '/migrations'
     },
